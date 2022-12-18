@@ -80,7 +80,7 @@ public class SubMenu {
 		System.out.println("     PEMBAYARAN     ");
 		System.out.println("---------------------");
 		do {
-			System.out.printf("Jumlah Uang  <=%d : Rp", harga);
+			System.out.printf("Jumlah Uang Minimal Rp%d : Rp", harga);
 			uang = scan.nextInt(); scan.nextLine();
 		}while(uang<harga);
 		
